@@ -1,5 +1,5 @@
 lazy val root = (project in file("."))
-  .aggregate(util, spark)
+  .aggregate(util, spark, service)
   .settings(
     name := "Test 2.12"
   )
